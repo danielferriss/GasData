@@ -1,0 +1,30 @@
+.grid {
+	display: grid;
+	height: 40vw;
+	grid-template-columns: repeat(10 , 1fr);
+	grid-template-rows: repeat(20, 1fr);
+}
+
+.grid a {
+	display: block;
+}
+
+.grid > * {
+	padding: 20px;
+	text-align: center;
+	color: #252323;
+	background-color: #DAD2BC;
+}
+
+.grid div:nth-child(1) {
+	grid-area: 2 / 3 / 5 / 9;
+	font-family: "open_sansbold";
+}
+
+.grid div:nth-child(2) {
+	grid-area: 5 / 3 / 15 / 9;
+}
+
+.grid div:nth-child(3) {
+	grid-area: 15 / 3 / 21 / 9;
+}
