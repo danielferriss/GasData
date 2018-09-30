@@ -23,6 +23,13 @@ for index, row in df.iterrows():
 		dropped_values += 1
 		data_droped_this_loop = 1
 
+	#Conform Department ED to EX
+	department = (row['Department'])
+	if department == "ED":
+		print("Row " + str(index) + "'s Department has been changed to EX from ED.")
+		df.loc[index,'Department'] = "EX"
+
+
 	#Find if distance cdriven is out of range
 	distance = row['Distance Driven'] 
 	if distance > 500 or distance == 0: 
