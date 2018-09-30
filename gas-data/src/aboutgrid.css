@@ -13,11 +13,11 @@
 	padding: 20px;
 	text-align: center;
 	color: #252323;
-	background-color: #DAD2BC;
+	background-color: #EEEEEE;
 }
 
 .grid div:nth-child(1) {
-	grid-area: 2 / 3 / 5 / 9;
+	grid-area: 2 / 3 / 2 / 9;
 	font-family: "open_sansbold";
 }
 

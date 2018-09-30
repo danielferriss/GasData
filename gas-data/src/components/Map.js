@@ -63,7 +63,7 @@ class Map extends Component {
       title={ 'Meijer 247' }
     />
       <Marker
-      position={{ lat: 40.1162058-88.21325389999998, lng:  }}
+      position={{ lat: 40.1162058, lng: -88.21325389999998 }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
       title={ 'Circle K #1413' }
     />
