@@ -29,23 +29,18 @@ List of Assumptions and objectives
 7. Watching the Fuel Efficiency of individual Vehilces overtime could alert fleet managers of maintenance issues. Such as tire inflation, oil changes, Etc..
 8. Mining Fuel price data  could save the city money by identifying gas stations that statisticly have the lowest prices.
 
-## Getting Started
+## What We Wrote
 
-This is a React app
+This is a fullstack application with an easy-to-read data visualization for everything listed above.  It is essentially a Dashboard in its early stages.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+*Need to have React installed
+*Several Python libraries including csv, operator, and plot.ly
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+The application is built using React, which combines our HTML+CSS styling with the Python backend portion.  This enables us to pull the data from our csv files, convert it into data structures that allow us to sort the data, graph the data using plot.ly, and then upload it to our site.
 
 ## Authors
 
