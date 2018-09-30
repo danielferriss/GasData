@@ -9,37 +9,37 @@ class Map extends Component {
       >
       <Marker
       position={{ lat: 40.1153841, lng: -88.18895309999999 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 39, height: 39 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 39, height: 39 }}}
       title={ 'Urbana Farmtown' }
     />
       <Marker
       position={{ lat: 40.13026119999999, lng: -88.19700849999998 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Freedom Oil Co.' }
     />
       <Marker
       position={{ lat: 40.1157165, lng: -88.18228140000002 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 36, height: 36 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 36, height: 36 }}}
       title={ 'Caseys Gen. Store 323' }
     />
       <Marker
       position={{ lat: 40.13338090000001, lng: -88.25878410000001 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Mach. 1 Food Shop 19' }
     />
       <Marker
       position={{ lat: 40.07382399999999 , lng: -88.24916100000002  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Thorntons #0385 Q' }
     />
       <Marker
       position={{ lat: 40.116098, lng: -88.2773459 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Thorntons #0386' }
     />
       <Marker
       position={{ lat: 40.1110275, lng: -88.21876729999997 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 40, height: 40 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 40, height: 40 }}}
       title={ 'Circle K #1434' }
     />
       <Marker
@@ -49,122 +49,122 @@ class Map extends Component {
     />
       <Marker
       position={{ lat: 40.3076943, lng: -88.1743156 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'http://worldartsme.com/images/clip-art-red-dot-clipart-1.jpg', scaledSize: { width: 20, height: 20 }}}
       title={ 'BP 8608770' }
     />
       <Marker
       position={{ lat:40.2390213 , lng:-88.19000499999999  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Caseys Gen. Store 149' }
     />
       <Marker
       position={{ lat: 40.0860406, lng:-88.1873137  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Meijer 247' }
     />
       <Marker
       position={{ lat: 40.1162058, lng: -88.21325389999998 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 50, height: 50 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 50, height: 50 }}}
       title={ 'Circle K #1413' }
     />
       <Marker
       position={{ lat:40.1125714 , lng: -88.27235840000003 }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Circle K #1399' }
     />
       <Marker
       position={{ lat:40.0950795 , lng:-88.19128490000003  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'BP 8617102' }
     />
       <Marker
       position={{ lat:40.112804 , lng:-88.20422889999998  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 38, height: 38 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 38, height: 38 }}}
       title={ 'Schnucks Urbana Expr.' }
     />
       <Marker
       position={{ lat:40.1086496 , lng:-88.20463219999999  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'http://worldartsme.com/images/clip-art-red-dot-clipart-1.jpg', scaledSize: { width: 20, height: 20 }}}
       title={ 'SZBD Inc.' }
     />
       <Marker
       position={{ lat:40.1160711 , lng:-88.22940549999998  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Mac\'s Convenience Store' }
     />
       <Marker
       position={{ lat:40.13035199999999 , lng:-88.19860399999999  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 36, height: 36 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 36, height: 36 }}}
       title={ 'Mac\'s Convenienc Store.' }
     />
       <Marker
       position={{ lat:40.1284888 , lng:-88.1994325  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'http://worldartsme.com/images/clip-art-red-dot-clipart-1.jpg', scaledSize: { width: 20, height: 20 }}}
       title={ 'Mac\'s Convenience Store' }
     />
       <Marker
       position={{ lat:40.010725 , lng:-88.16099099999997  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Caseys Gen. Store 166' }
     />
       <Marker
       position={{ lat:40.0860406 , lng:-88.1873137  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 39, height: 39 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 39, height: 39 }}}
       title={ 'Meijer 247' }
     />
       <Marker
       position={{ lat:40.1320093 , lng:-88.22028940000001  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 36, height: 36 }}}
+      icon={{ url: 'http://worldartsme.com/images/clip-art-red-dot-clipart-1.jpg', scaledSize: { width: 36, height: 36 }}}
       title={ 'Circle K # 01301' }
     />
       <Marker
       position={{ lat:40.1107634 , lng:-88.16197549999998  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 35, height: 35 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 35, height: 35 }}}
       title={ 'Murphy 7275 Atwalmrt' }
     />
       <Marker
       position={{ lat:40.0400014 , lng:-87.95845279999998  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Caseys Gen. Store 222' }
     />
       <Marker
       position={{ lat:40.1103166 , lng:-88.21878659999999  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={'Mac\'s Convenience Store' }
     />
       <Marker
       position={{ lat:40.11295800000001 , lng:-88.04003890000001  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Shell Service Statio' }
     />
       <Marker
       position={{ lat:40.195573 , lng:-88.39967480000001  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Minitmart Mahomet #7' }
     />
       <Marker
       position={{ lat:40.1320093 , lng:-88.22028940000001  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Circle K # 01301' }
     />
       <Marker
       position={{ lat:40.1107634 , lng:-88.16197549999998  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Murphy 7275 Atwalmrt' }
     />
       <Marker
       position={{ lat:40.09804190000001 , lng:-88.19108040000003  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Omsai LLC' }
     />
       <Marker
       position={{ lat:40.1268892 , lng:-88.22021330000001  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'Mac\'s Convenienc Store.' }
     />
       <Marker
       position={{ lat:40.1856207 , lng:-88.3692509  }}
-      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 20, height: 20 }}}
+      icon={{ url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_sphere.svg/2000px-Blue_sphere.svg.png', scaledSize: { width: 20, height: 20 }}}
       title={ 'S and P United Inc.' }
     />
 
@@ -173,7 +173,7 @@ class Map extends Component {
    return(
       <div>
         <GoogleMapExample
-          containerElement={ <div style={{ height: `600px`, width: '1075px' }} /> }
+          containerElement={ <div style={{ height: `600px`, width: `1075px` }} /> }
           mapElement={ <div style={{ height: `100%` }} /> }
         />
       </div>
