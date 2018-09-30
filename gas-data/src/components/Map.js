@@ -90,36 +90,83 @@ class Map extends Component {
       <Marker
       position={{ lat:40.1160711 , lng:-88.22940549999998  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ 'Mac's Convenience Sto' }
+      title={ 'Mac\'s Convenience Store' }
     />
       <Marker
-      position={{ lat: , lng:  }}
+      position={{ lat:40.13035199999999 , lng:-88.19860399999999  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ '' }
+      title={ 'Mac\'s Convenienc Store.' }
     />
       <Marker
-      position={{ lat: , lng:  }}
+      position={{ lat:40.1284888 , lng:-88.1994325  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ '' }
+      title={ 'Mac\'s Convenience Store' }
     />
       <Marker
-      position={{ lat: , lng:  }}
+      position={{ lat:40.010725 , lng:-88.16099099999997  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ '' }
+      title={ 'Caseys Gen. Store 166' }
     />
       <Marker
-      position={{ lat: , lng:  }}
+      position={{ lat:40.0860406 , lng:-88.1873137  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ '' }
+      title={ 'Meijer 247' }
     />
       <Marker
-      position={{ lat: , lng:  }}
+      position={{ lat:40.1320093 , lng:-88.22028940000001  }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
-      title={ '' }
+      title={ 'Circle K # 01301' }
     />
-
-
-
+      <Marker
+      position={{ lat:40.1107634 , lng:-88.16197549999998  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Murphy 7275 Atwalmrt' }
+    />
+      <Marker
+      position={{ lat:40.0400014 , lng:-87.95845279999998  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Caseys Gen. Store 222' }
+    />
+      <Marker
+      position={{ lat:40.1103166 , lng:-88.21878659999999  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={'Mac\'s Convenience Store' }
+    />
+      <Marker
+      position={{ lat:40.11295800000001 , lng:-88.04003890000001  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Shell Service Statio' }
+    />
+      <Marker
+      position={{ lat:40.195573 , lng:-88.39967480000001  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Minitmart Mahomet #7' }
+    />
+      <Marker
+      position={{ lat:40.1320093 , lng:-88.22028940000001  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Circle K # 01301' }
+    />
+      <Marker
+      position={{ lat:40.1107634 , lng:-88.16197549999998  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Murphy 7275 Atwalmrt' }
+    />
+      <Marker
+      position={{ lat:40.09804190000001 , lng:-88.19108040000003  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Omsai LLC' }
+    />
+      <Marker
+      position={{ lat:40.1268892 , lng:-88.22021330000001  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'Mac\'s Convenienc Store.' }
+    />
+      <Marker
+      position={{ lat:40.1856207 , lng:-88.3692509  }}
+      icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 32, height: 32 }}}
+      title={ 'S and P United Inc.' }
+    />
 
       </GoogleMap>
    ));
