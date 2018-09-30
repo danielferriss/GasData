@@ -1,5 +1,6 @@
 import csv
 import operator
+import json
 
 def compare_departments(filename, category):
 	count = 0
@@ -28,7 +29,11 @@ def compare_departments(filename, category):
 
 	return deptmeans
 
+with open('result.json', 'w') as fp:
+	json.dump(compare_departments('../data/clean_data.csv', 63), fp)
+
 #Uncomment the line below to see an example
 #The category parameter is the index of the category in the csv file
 #Ex: category 61 corresponds to the "Distance Driven" category 
-print(compare_departments('../data/clean_data.csv', 63))
+#print(compare_departments('../data/clean_data.csv', 63))
+
