@@ -63,7 +63,7 @@ class Map extends Component {
       title={ 'Meijer 247' }
     />
       <Marker
-      position={{ lat: 40.1162058,-88.21325389999998, lng:  }}
+      position={{ lat: 40.1162058, lng: -88.21325389999998 }}
       icon={{ url: 'https://openclipart.org/image/2400px/svg_to_png/103027/1293960051.png', scaledSize: { width: 50, height: 50 }}}
       title={ 'Circle K #1413' }
     />
@@ -173,7 +173,7 @@ class Map extends Component {
    return(
       <div>
         <GoogleMapExample
-          containerElement={ <div style={{ height: `500px`, width: '500px' }} /> }
+          containerElement={ <div style={{ height: `600px`, width: '1075px' }} /> }
           mapElement={ <div style={{ height: `100%` }} /> }
         />
       </div>
