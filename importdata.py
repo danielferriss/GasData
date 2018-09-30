@@ -84,15 +84,25 @@ for index, row in df.iterrows():
 
 #Begin Weekly Standard Dev and Average price of gas
 for week in df['Transaction WeekOfYear'].unique():
+	print("Calculating Weekly statistics" + str(week))
 	unleadedavgPrice = -1
 	e85Averageprice = -1
 	deiselaverageprice = -1
-	unleadedavgPrice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Unleaded')].mean()
-	e85Averageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='E-85')].mean()
-	deiselaverageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Diesel')].mean()
-
-
-
+	unleadedavgPrice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Unleaded')]['Unit Cost'].mean()
+	e85Averageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='E-85')]['Unit Cost'].mean()
+	deiselaverageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Diesel')]['Unit Cost'].mean()
+	unleadedstedev = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Unleaded')]['Unit Cost'].std(axis=0,skipna=True)
+	e85stedev = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='E-85')]['Unit Cost'].std(axis=0,skipna=True)
+	deiselstedev = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Diesel')]['Unit Cost'].std(axis=0,skipna=True)
+	print( ""+str(unleadedavgPrice) + " " + str(e85Averageprice) + " " + str(deiselaverageprice))
+	for index2, row2 in df.iterrows():
+		if int(row2['Transaction WeekOfYear']) == int(week): 
+			df.loc[index2,'unleadedavgPrice'] = unleadedavgPrice
+			df.loc[index2,'e85Averageprice'] = e85Averageprice
+			df.loc[index2,'deiselaverageprice'] = deiselaverageprice
+			df.loc[index2,'unleadedstedev'] = unleadedstedev
+			df.loc[index2,'e85stedev'] = e85stedev
+			df.loc[index2,'deiselstedev'] = deiselstedev
 
 #Mark records that are Lower the one Standard deviation from Agerage
 
