@@ -24,13 +24,13 @@ def compare_departments(filename, category):
 
 	deptmeans = {}
 	for key in departments:
-		deptmeans[key] = departments[key][1] / departments[key][0]
+		deptmeans[key] = departments[key][1] 
 		deptmeans[key] = round(deptmeans[key], 2)
 
 	return deptmeans
 
 with open('result.json', 'w') as fp:
-	json.dump(compare_departments('../data/clean_data.csv', 63), fp)
+	json.dump(compare_departments('../data/clean_data.csv', 40), fp)
 
 #Uncomment the line below to see an example
 #The category parameter is the index of the category in the csv file
