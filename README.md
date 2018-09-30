@@ -33,6 +33,15 @@ List of Assumptions and objectives
 
 This is a fullstack application with an easy-to-read data visualization for everything listed above.  It is essentially a Dashboard in its early stages.
 
+Data import with data Cleansing and Data Issue Logging 
+    Checks for Invalid Transaction Dates
+    Checks for Miles Driven = 0 
+    #TODO Check for invalid current odomotor entries based on Prior Vehicle transactions
+    #TODO Check for invalid Miles Driven based on Quantity of Fuel purchased and miles driven based on odmotor reading
+    Drops transaction rows that are none Fuel purchases
+    Creates a data issue report (.csv file) by vehicle ID
+    #todo Calculates Milage reports based average on weekly miles
+    
 ### Prerequisites
 
 * Need to have React installed
