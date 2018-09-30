@@ -13,7 +13,7 @@ def compare_drivers(filename, category):
 				counttotal = []
 				counttotal.append(1)
 				counttotal.append(float(row[category]))
-				curr = row[1]
+				curr = row[2]
 				if curr not in drivers:
 					drivers[curr] = counttotal
 				else:
