@@ -41,7 +41,7 @@ Data import with data Cleansing and Data Issue Logging
     Drops transaction rows that are none Fuel purchases
     Creates a data issue report (.csv file) by vehicle ID
     #todo Calculates Milage reports based average on weekly miles
-
+    
 ### Prerequisites
 
 * Need to have React installed
