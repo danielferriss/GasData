@@ -3,17 +3,24 @@ import numpy as np
 import datetime as dt
 
 df = pd.read_csv('data/fuel_card_export.csv')
+NaughtyDrivers = pd.DataFrame( columns= ['Vehicle ID', 'Transaction WeekOfYear','Data_issue','DataDroppedCount'] )
 
 dropped_values = 0
 dropped_rows = 0
 data_droped_this_loop = 0
+row_droped_this_loop = 0
 DataDropedbyDriver = {} 
 
 
 for index, row in df.iterrows():
 	data_droped_this_loop = 0
+	row_droped_this_loop = 0
+	current = 0
 	vehicle = int(row['Vehicle ID'])
 	transactiondate = dt.datetime.strptime(row['Transaction Date'], '%m/%d/%Y')
+
+	#calculate Week of the Year
+	df.loc[index,'Transaction WeekOfYear'] = int(transactiondate.strftime("%V"))
 
 	#Find if year is out of range
 	year = int((row['Transaction Date'][6:]))
@@ -22,12 +29,22 @@ for index, row in df.iterrows():
 		df.loc[index,'Transaction Date'] = -1
 		dropped_values += 1
 		data_droped_this_loop = 1
+		NaughtyDrivers =NaughtyDrivers.append({'Vehicle ID':vehicle, 'Transaction WeekOfYear':int(transactiondate.strftime("%V")),'Data_issue':"Bad Transaction Date",'DataDroppedCount':1}, ignore_index=True)
 
 	#Conform Department ED to EX
 	department = (row['Department'])
 	if department == "ED":
 		print("Row " + str(index) + "'s Department has been changed to EX from ED.")
 		df.loc[index,'Department'] = "EX"
+
+	#Conform Product Class to Unleaded  from Unleaded Mid-Grade and	Unleaded Premium
+	product_class = (row['Product Class'])
+	if product_class == "Unleaded Mid-Grade":
+		print("Row " + str(index) + "'s Product Class has been changed to Unleaded from Unleaded Mid-Grade.")
+		df.loc[index,'Product Class'] = "Unleaded"
+	elif product_class == "Unleaded Premium":
+		print("Row " + str(index) + "'s Product Class has been changed to Unleaded from Unleaded Premium.")
+		df.loc[index,'Product Class'] = "Unleaded"
 
 
 	#Find if distance cdriven is out of range
@@ -37,6 +54,13 @@ for index, row in df.iterrows():
 		df.loc[index, 'Distance Driven'] = -1
 		dropped_values += 1
 		data_droped_this_loop = 1
+		NaughtyDrivers =NaughtyDrivers.append({'Vehicle ID':vehicle, 'Transaction WeekOfYear':int(transactiondate.strftime("%V")),'Data_issue':"Bad Distance Driven",'DataDroppedCount':1}, ignore_index=True)
+
+	#Based on Fuel Purchased,  distance driven is wrong
+	#TODO desiel_conforming_milage = int()
+	#TODO unleaded_conforming_milage = int()
+
+
 
 	#Find if gas is being bouoght
 	unit = row['Unit of Measure'] 
@@ -44,21 +68,41 @@ for index, row in df.iterrows():
 		print("Row " + str(index) + " has been dropped because it is a non-fuel purchase")
 		df.drop(index=index, inplace=True)
 		dropped_rows += 1
+		row_droped_this_loop = 1
 		#data_droped_this_loop = 1 //Non-gas Purchases are not counted against the Vehicle
-		
-	if data_droped_this_loop == 1:
-		df.loc[index,'hasDroppedData'] = 1
-		if vehicle not in DataDropedbyDriver:
-			DataDropedbyDriver[vehicle] = 1
-		else:
-			DataDropedbyDriver[vehicle] += 1
 
-	df.loc[index,'Transaction WeekOfYear'] = transactiondate.strftime("%V")
+	if row_droped_this_loop == 0:	
+		if data_droped_this_loop == 1:
+			df.loc[index,'hasDroppedData'] = 1
+			if vehicle not in DataDropedbyDriver:
+				DataDropedbyDriver[vehicle] = 1
+			else:
+				DataDropedbyDriver[vehicle] += 1
+
+
+#Begin Statistical data Add
+
+#Begin Weekly Standard Dev and Average price of gas
+for week in df['Transaction WeekOfYear'].unique():
+	unleadedavgPrice = -1
+	e85Averageprice = -1
+	deiselaverageprice = -1
+	unleadedavgPrice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Unleaded')].mean()
+	e85Averageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='E-85')].mean()
+	deiselaverageprice = df[(df['Transaction WeekOfYear']==week) & (df['Product Class']=='Diesel')].mean()
+
+
+
+
+#Mark records that are Lower the one Standard deviation from Agerage
+
+
 
 df.to_csv("data/clean_data.csv")
 print(str(dropped_values) + " values were dropped.")
 print(str(dropped_rows) + " rows were dropped.")
 print(" Data Items dropped by vehicle ")
+NaughtyDrivers.to_csv("data/dropeddatabydriver.csv")
 for key, value in sorted(DataDropedbyDriver.items(), key=lambda x: x[0]): 
     print("Vehcile: {} : {}".format(key, value))
 
