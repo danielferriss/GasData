@@ -49,7 +49,10 @@ Give examples
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Danny** - *Fullstack* - [danielferriss](https://github.com/danielferriss)
+* **Jeff** - *Data Scientist* - [Jeffpostcn](https://github.com/Jeffpostcn)
+* **Divya** - *Backend Dev* - [DivyaBhati](https://github.com/DivyaBhati)
+* **Ilie** - *GIS Specialist* - [ilievartic](https://github.com/ilievartic)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
