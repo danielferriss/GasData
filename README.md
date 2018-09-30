@@ -35,8 +35,8 @@ This is a fullstack application with an easy-to-read data visualization for ever
 
 ### Prerequisites
 
-*Need to have React installed
-*Several Python libraries including csv, operator, and plot.ly
+* Need to have React installed
+* Several Python libraries including csv, operator, and plot.ly
 
 ## Built With
 
