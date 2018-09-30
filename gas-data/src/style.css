@@ -1,0 +1,36 @@
+html {
+
+}
+
+body {
+	background: #70798C;
+	background-repeat: no-repeat;
+	margin: 0;
+	max-width: 300em;
+	font-family: "open_sansregular";
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(4 , 1fr);
+	grid-template-rows: 1fr;
+	align-items: center;
+	height: 15vw;
+	max-height: 80px;
+	background-color: #A99985;
+	/*border-bottom: 4px solid white;*/
+	font-family: "open_sansbold";
+	text-transform: uppercase;
+}
+
+.navbar div {
+	text-align: center;
+	color: #252323;
+	font-size: 1.5vw;
+}
+
+.navbar div:hover {
+	filter: brightness(110%);
+	transition: ease 0.3s;
+	transform: scale(1.20);
+}
