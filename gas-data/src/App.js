@@ -56,6 +56,7 @@ export default App;
       <div className='home'>
         <h1>Gas Stations</h1>
         <p>On this page we compare the average price at each gas station over the last week.</p>
+        <p>Blue dots are within one standard deviation. Red are one SD more expensive. Larger dots means more traffic.</p>
         <div className='grid2'><Map/></div>
       </div>
     );
