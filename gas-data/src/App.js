@@ -111,7 +111,7 @@ export default App;
         data={[
           {type: 'bar', x: ['ID 24', 'ID 37', 'ID 13', 'ID 43', 'ID 15', 'ID 40', 'ID 5'], y: [26122, 24429, 20469, 20193, 19668, 16865, 16181]},
         ]}
-        layout={ {width: 600, height: 600, title: 'Yearly Odometer Anomalies'} }
+        layout={ {width: 600, height: 600, title: 'Yearly Miles Driven'} }
         />
 
         </div>
